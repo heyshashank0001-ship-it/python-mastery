@@ -1,133 +1,255 @@
 # python-mastery
-python-mastery/
-│
-├── README.md
-├── LICENSE
-├── .gitignore
-├── requirements.txt
-│
-├── 01-python-basics/
-│   ├── 01-hello-world/
-│   ├── 02-variables/
-│   ├── 03-data-types/
-│   ├── 04-input-output/
-│   ├── 05-operators/
-│   ├── 06-conditionals/
-│   ├── 07-loops/
-│   └── 08-practice-problems/
-│
-├── 02-data-structures/
-│   ├── lists/
-│   ├── tuples/
-│   ├── sets/
-│   ├── dictionaries/
-│   ├── strings/
-│   └── comprehensions/
-│
-├── 03-functions/
-│   ├── functions/
-│   ├── arguments/
-│   ├── lambda/
-│   ├── recursion/
-│   ├── scope/
-│   └── decorators/
-│
-├── 04-modules-and-packages/
-│   ├── modules/
-│   ├── packages/
-│   ├── imports/
-│   └── virtual-environments/
-│
-├── 05-file-handling/
-│   ├── text-files/
-│   ├── csv/
-│   ├── json/
-│   └── pathlib/
-│
-├── 06-error-handling/
-│   ├── exceptions/
-│   ├── try-except/
-│   ├── custom-exceptions/
-│   └── debugging/
-│
-├── 07-oop/
-│   ├── classes/
-│   ├── objects/
-│   ├── constructors/
-│   ├── inheritance/
-│   ├── polymorphism/
-│   ├── encapsulation/
-│   └── magic-methods/
-│
-├── 08-advanced-python/
-│   ├── iterators/
-│   ├── generators/
-│   ├── decorators/
-│   ├── context-managers/
-│   ├── dataclasses/
-│   ├── type-hints/
-│   └── async/
-│
-├── 09-python-standard-library/
-│   ├── os/
-│   ├── sys/
-│   ├── datetime/
-│   ├── math/
-│   ├── random/
-│   ├── collections/
-│   ├── itertools/
-│   ├── functools/
-│   ├── re/
-│   └── logging/
-│
-├── 10-testing/
-│   ├── unittest/
-│   ├── pytest/
-│   ├── fixtures/
-│   └── mocking/
-│
-├── 11-databases/
-│   ├── sqlite/
-│   ├── sql/
-│   └── python-database-project/
-│
-├── 12-api-and-web/
-│   ├── requests/
-│   ├── rest-api/
-│   ├── flask/
-│   └── fastapi/
-│
-├── 13-data-analysis/
-│   ├── numpy/
-│   ├── pandas/
-│   ├── matplotlib/
-│   └── data-analysis-project/
-│
-├── 14-automation/
-│   ├── web-automation/
-│   ├── file-automation/
-│   ├── email-automation/
-│   └── automation-projects/
-│
-├── 15-git-and-github/
-│   ├── git-basics/
-│   ├── branching/
-│   ├── pull-requests/
-│   └── github-actions/
-│
-├── 16-projects/
-│   ├── 01-calculator/
-│   ├── 02-number-guessing-game/
-│   ├── 03-todo-app/
-│   ├── 04-expense-tracker/
-│   ├── 05-weather-app/
-│   ├── 06-file-organizer/
-│   ├── 07-api-project/
-│   ├── 08-web-scraper/
-│   └── 09-streamlit-project/
-│
-└── 17-interview-preparation/
-    ├── python-questions/
-    ├── coding-problems/
-    ├── mcqs/
-    └── interview-notes/
+# 🐍 Python Mastery
+
+A structured, hands-on journey to mastering Python from beginner to advanced level.
+
+The goal of this repository is not just to read Python concepts, but to **learn → code → practice → build projects → review**.
+
+---
+
+## 🎯 Learning Roadmap
+
+### 01 — Python Basics
+
+* Hello World
+* Variables
+* Data Types
+* Input and Output
+* Operators
+* Conditional Statements
+* Loops
+* Practice Problems
+
+### 02 — Data Structures
+
+* Strings
+* Lists
+* Tuples
+* Sets
+* Dictionaries
+* List Comprehensions
+* Dictionary Comprehensions
+
+### 03 — Functions
+
+* Defining Functions
+* Parameters and Arguments
+* `*args`
+* `**kwargs`
+* Lambda Functions
+* Scope
+* Recursion
+* Decorators
+
+### 04 — Modules and Packages
+
+* Modules
+* Packages
+* Imports
+* `pip`
+* Virtual Environments
+
+### 05 — File Handling
+
+* Reading Files
+* Writing Files
+* CSV
+* JSON
+* `pathlib`
+
+### 06 — Error Handling
+
+* Exceptions
+* `try`
+* `except`
+* `else`
+* `finally`
+* Custom Exceptions
+* Debugging
+
+### 07 — Object-Oriented Programming
+
+* Classes
+* Objects
+* Constructors
+* Instance Methods
+* Class Methods
+* Static Methods
+* Inheritance
+* Polymorphism
+* Encapsulation
+* Magic Methods
+
+### 08 — Advanced Python
+
+* Iterators
+* Generators
+* Decorators
+* Context Managers
+* Dataclasses
+* Type Hints
+* Async Programming
+
+### 09 — Python Standard Library
+
+* `os`
+* `sys`
+* `datetime`
+* `math`
+* `random`
+* `collections`
+* `itertools`
+* `functools`
+* `re`
+* `logging`
+
+### 10 — Testing
+
+* `unittest`
+* `pytest`
+* Fixtures
+* Mocking
+* Test-Driven Development
+
+### 11 — Databases
+
+* SQL Fundamentals
+* SQLite
+* Connecting Python to Databases
+* CRUD Operations
+
+### 12 — APIs and Web Development
+
+* HTTP
+* REST APIs
+* `requests`
+* Flask
+* FastAPI
+
+### 13 — Data Analysis
+
+* NumPy
+* Pandas
+* Matplotlib
+* Data Cleaning
+* Data Analysis Projects
+
+### 14 — Automation
+
+* File Automation
+* Web Automation
+* Email Automation
+* Task Automation
+
+### 15 — Git and GitHub
+
+* Git Basics
+* Commits
+* Branches
+* Merging
+* Pull Requests
+* GitHub Actions
+
+### 16 — Projects
+
+Build real applications while progressing through the roadmap.
+
+Projects include:
+
+* Calculator
+* Number Guessing Game
+* Todo Application
+* Expense Tracker
+* Weather Application
+* File Organizer
+* API Project
+* Web Scraper
+* Streamlit Application
+
+### 17 — Interview Preparation
+
+* Python Interview Questions
+* Coding Problems
+* MCQs
+* Data Structures and Algorithms
+* Python Interview Notes
+
+---
+
+# 📈 Progress Tracker
+
+| Section               | Status |
+| --------------------- | ------ |
+| Python Basics         | ⬜      |
+| Data Structures       | ⬜      |
+| Functions             | ⬜      |
+| Modules & Packages    | ⬜      |
+| File Handling         | ⬜      |
+| Error Handling        | ⬜      |
+| OOP                   | ⬜      |
+| Advanced Python       | ⬜      |
+| Standard Library      | ⬜      |
+| Testing               | ⬜      |
+| Databases             | ⬜      |
+| APIs & Web            | ⬜      |
+| Data Analysis         | ⬜      |
+| Automation            | ⬜      |
+| Git & GitHub          | ⬜      |
+| Projects              | ⬜      |
+| Interview Preparation | ⬜      |
+
+---
+
+# 🧠 Learning Method
+
+For every topic:
+
+1. Understand the concept
+2. Write examples
+3. Solve exercises
+4. Build a small project
+5. Review the code
+6. Commit the work to Git
+7. Move to the next topic
+
+---
+
+# 🛠️ Tools
+
+* Python
+* Git
+* GitHub
+* VS Code
+* Pytest
+* SQLite
+* Pandas
+* NumPy
+* Matplotlib
+* Streamlit
+* Flask / FastAPI
+
+---
+
+# 🚀 Goal
+
+By completing this repository, I aim to be able to:
+
+* Write clean Python programs
+* Understand Python fundamentals deeply
+* Work confidently with data structures
+* Build object-oriented applications
+* Handle files and databases
+* Consume and build APIs
+* Write automated tests
+* Automate repetitive tasks
+* Build real-world Python projects
+* Use Git and GitHub professionally
+* Prepare for Python technical interviews
+
+---
+
+## 📚 Repository Philosophy
+
+**Don't just read Python. Write Python.**
+
+Every topic should contain working code, exercises, and practical examples.
